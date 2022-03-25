@@ -97,7 +97,7 @@ class Example
 		#if sys
 		// This time write that same document to disk and adjust the flow level giving 
 		// a more compact result.
-		Yaml.write("receipt.yaml", receipt, Renderer.options().setFlowLevel(1));
+		Yaml.write("receipt.yaml", receipt);
 		#end
 	}
 }
