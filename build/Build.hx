@@ -11,9 +11,9 @@ class Build extends mtask.core.BuildBase
 	@target function haxelib(t:HaxeLib)
 	{
 		t.description = "A cross platform YAML 1.2 parser and renderer for Haxe.";
-		t.url = "https://github.com/mikestead/hx-yaml";
+		t.url = "https://github.com/Paidyy/haxe-yaml";
 		t.license = HaxeLibLicense.MIT;
-		t.versionDescription = "See https://github.com/mikestead/hx-yaml/blob/master/CHANGES.md";
+		t.versionDescription = "See https://github.com/Paidyy/haxe-yaml/blob/master/CHANGES.md";
 		t.username = "mikestead";
 		
 		t.addTag("cross");
