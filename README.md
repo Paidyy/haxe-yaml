@@ -1,17 +1,15 @@
+# Fork Info
+This fork fixes rendering shit and fixes some shit.
+
+## Installation
+```
+haxelib git yaml https://github.com/Paidyy/hx-yaml.git
+```
+
 # Overview
 
 A cross platform [YAML](http://www.yaml.org/) 1.2 parser and renderer for Haxe 3+. Ported from the feature rich
 [js-yaml](https://github.com/nodeca/js-yaml). Currently supports JavaScript, Flash (as3), CPP and Neko 2.0+.
-
-### Installation
-
-From haxelib:
-
-	haxelib install yaml
-	
-Or the latest directly from GitHub
-
-	haxelib git yaml https://github.com/mikestead/hx-yaml.git src
 	
 ## Example
 
