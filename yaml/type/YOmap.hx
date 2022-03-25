@@ -27,7 +27,7 @@ class YOmap extends yaml.YamlType<Array<Dynamic>, Array<Dynamic>>
 			var pairHasKey = false;
 			var pairKey:Dynamic = null;
 			
-			if (!Std.is(pair, AnyObjectMap))
+			if (!Std.isOfType(pair, AnyObjectMap))
 				cantResolveType();
 			
 			for (key in pair.keys())

@@ -89,8 +89,8 @@ class TObjectMap<K, V>
 		var vs:Dynamic = values;
 		for (i in 0..._keys.length)
 		{
-			var k = (Std.is(ks[i], Array)) ? "[" + ks[i] + "]" : ks[i];
-			var v = (Std.is(vs[i], Array)) ? "[" + vs[i] + "]" : vs[i];
+			var k = (Std.isOfType(ks[i], Array)) ? "[" + ks[i] + "]" : ks[i];
+			var v = (Std.isOfType(vs[i], Array)) ? "[" + vs[i] + "]" : vs[i];
 			s += k + " => " + v + ", ";
 		}
 
