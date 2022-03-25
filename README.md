@@ -3,7 +3,7 @@ This fork fixes rendering shit and fixes some shit.
 
 ## Installation
 ```
-haxelib git yaml https://github.com/Paidyy/hx-yaml.git
+haxelib git yaml https://github.com/Paidyy/haxe-yaml.git
 ```
 
 # Overview
