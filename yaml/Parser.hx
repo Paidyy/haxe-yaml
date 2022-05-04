@@ -181,11 +181,7 @@ class Parser
 		implicitTypes = schema.compiledImplicit;
 		typeMap = schema.compiledTypeMap;
 
-<<<<<<< HEAD
 		length = this.input.length;//.length;
-=======
-		length = new UnicodeString(this.input).length;//.length;
->>>>>>> 135b7734c8cb13bc1585d2d1d42a265ac5788031
 		position = 0;
 		line = 0;
 		lineStart = 0;
@@ -299,11 +295,7 @@ class Parser
 
 			if (checkJson && validate) 
 			{
-<<<<<<< HEAD
 				for (pos in 0..._result.length)//.length)
-=======
-				for (pos in 0...new UnicodeString(_result).length)//.length)
->>>>>>> 135b7734c8cb13bc1585d2d1d42a265ac5788031
 				{
 					var char = new UnicodeString(_result).charCodeAt(pos);
 					if (!(0x09 == char || 0x20 <= char && char <= 0x10FFFF))
