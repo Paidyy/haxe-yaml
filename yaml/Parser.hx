@@ -1799,11 +1799,7 @@ class Parser
 			directiveName = yaml.util.Utf8.substring(input, _position, position);
 			directiveArgs = [];
 
-<<<<<<< HEAD
 			if (directiveName.length < 1)
-=======
-			if (new UnicodeString(directiveName).length < 1)
->>>>>>> 135b7734c8cb13bc1585d2d1d42a265ac5788031
 				throwError('directive name must not be less than one character in length');
 
 			while (position < length)
