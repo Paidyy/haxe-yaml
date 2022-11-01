@@ -4,14 +4,9 @@ A cross platform [YAML](http://www.yaml.org/) 1.2 parser and renderer for Haxe 3
 [js-yaml](https://github.com/nodeca/js-yaml). Currently supports JavaScript, Flash (as3), CPP and Neko 2.0+.
 
 ### Installation
+Directly from GitHub
 
-From haxelib:
-
-	haxelib install yaml
-	
-Or the latest directly from GitHub
-
-	haxelib git yaml https://github.com/mikestead/hx-yaml.git src
+	haxelib git yaml https://github.com/Paidyy/haxe-yaml.git
 	
 ## Example
 
