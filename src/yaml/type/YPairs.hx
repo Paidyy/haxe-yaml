@@ -24,7 +24,7 @@ class YPairs extends YamlType<Array<Array<Dynamic>>, Array<Dynamic>>
 		var result:Array<Array<Dynamic>> = [];
 		for (pair in object)
 		{
-			if (!Std.is(pair, AnyObjectMap))
+			if (!Std.isOfType(pair, AnyObjectMap))
 				cantResolveType();
 
 			var fieldCount = 0;

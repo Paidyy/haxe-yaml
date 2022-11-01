@@ -413,7 +413,7 @@ class Renderer
 			if ((null != type.dumper) &&
 				type.dumper.skip != true &&
 				(null == type.dumper.kind || kind == type.dumper.kind) &&
-				(null == type.dumper.instanceOf || Std.is(object, type.dumper.instanceOf) &&
+				(null == type.dumper.instanceOf || Std.isOfType(object, type.dumper.instanceOf) &&
 				(null == type.dumper.predicate  || type.dumper.predicate(object))))
 			{
 				tag = explicit ? type.tag : '?';
@@ -518,7 +518,7 @@ class Renderer
 			case TFloat: "float";
 			case TBool: "boolean";
 			case TObject:
-				if (Std.is(object, Array)) "array";
+				if (Std.isOfType(object, Array)) "array";
 				else "object";
 			case TFunction: "function";
 			case TClass(c):

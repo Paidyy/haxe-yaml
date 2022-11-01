@@ -12,7 +12,7 @@ class Yaml
 	Parse a yaml document into object form.
 	 
 	@param document     The yaml document to parse.
-	@param ?options     Parsing options (optional).
+	@param ?options     Parsing options (optional). ex. `Parser.options().useObjects()` for `return.key` instead of `return.get("key")`
 	 
 	@return The parsed yaml document in object form.
 	*/
@@ -27,7 +27,7 @@ class Yaml
 	Read a yaml document from disk and parse into object form.
 	
 	@param filePath     The path to read the yaml file.
-	@param ?options     Parsing options (optional).
+	@param ?options     Parsing options (optional). ex. `Parser.options().useObjects()` for `return.key` instead of `return.get("key")`
 	
 	@return The parsed yaml document in object form.
 	*/
