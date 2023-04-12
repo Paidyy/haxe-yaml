@@ -3,7 +3,7 @@ package yaml;
 import Type;
 import yaml.util.StringMap;
 import yaml.util.IntMap;
-import haxe.Utf8;
+import yaml_wrapper.Utf8;
 import haxe.io.Bytes;
 import yaml.YamlType;
 import yaml.schema.DefaultSchema;

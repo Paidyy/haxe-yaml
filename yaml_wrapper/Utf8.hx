@@ -1,4 +1,4 @@
-package haxe;
+package yaml_wrapper;
 
 class Utf8 {
     private static var _string:UnicodeString;

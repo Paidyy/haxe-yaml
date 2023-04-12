@@ -4,7 +4,7 @@ import Type;
 import yaml.util.ObjectMap;
 import yaml.util.StringMap;
 import yaml.util.IntMap;
-import haxe.Utf8;
+import yaml_wrapper.Utf8;
 import haxe.PosInfos;
 import yaml.schema.DefaultSchema;
 import yaml.schema.SafeSchema;

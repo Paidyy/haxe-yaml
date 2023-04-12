@@ -1,7 +1,7 @@
 package yaml.type;
 
 import haxe.io.Bytes;
-import haxe.Utf8;
+import yaml_wrapper.Utf8;
 import yaml.YamlType;
 
 class YBinary extends yaml.StringYamlType<Bytes>
